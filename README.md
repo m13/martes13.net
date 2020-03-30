@@ -4,10 +4,11 @@ Old blog: https://sergioarcos.wordpress.com/
 
 Built using https://github.com/amitmerchant1990/reverie
 
+Start with: `bundle exec jekyll serve --watch`
 
 # Pending
 
-- [ ] Migrate old entries
-- [ ] Add something new
+- [x] Migrate old entries
 - [x] Learn more about jekyll
-- [ ] Learn basic styles
+- [x] Learn basic styles
+- [ ] Add something new
