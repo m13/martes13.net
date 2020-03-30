@@ -40,26 +40,26 @@ Primero, creamos una nueva nota. El contenido, debe tener al menos el siguiente 
 Una vez se crea la nota, se puede escoger quien es el objetivo de esta. Es muy importante esto, debido a que será clave para poder dirigir el ataque a una persona o grupo concreto:
 
 
-[![](http://sergioarcos.files.wordpress.com/2011/03/01.png?w=300)](http://sergioarcos.files.wordpress.com/2011/03/01.png)
+[![](/images/2011/03/01.png?w=300)](/images/2011/03/01.png)
 
 
-[](http://sergioarcos.files.wordpress.com/2011/03/01.png)Una vez creada, si miramos el código fuente, podemos observar que se ha creado con dirección de la CDN:
+[](/images/2011/03/01.png)Una vez creada, si miramos el código fuente, podemos observar que se ha creado con dirección de la CDN:
 
 
-[![](http://sergioarcos.files.wordpress.com/2011/03/02.png?w=300)](http://sergioarcos.files.wordpress.com/2011/03/02.png)
+[![](/images/2011/03/02.png?w=300)](/images/2011/03/02.png)
 
 
-[](http://sergioarcos.files.wordpress.com/2011/03/02.png)Ahora, podemos ir a nuestro muro, donde se ha auto-creado un nuevo post, y borrarlo. No sirve de nada. Lo que hay que hacer, es compartir esa nota manualmente. También hay que seleccionar con quien queremos compartirla, igual que hicimos al crearla. Fijaros bien en el código que se replica:
+[](/images/2011/03/02.png)Ahora, podemos ir a nuestro muro, donde se ha auto-creado un nuevo post, y borrarlo. No sirve de nada. Lo que hay que hacer, es compartir esa nota manualmente. También hay que seleccionar con quien queremos compartirla, igual que hicimos al crearla. Fijaros bien en el código que se replica:
 
 
-[![](http://sergioarcos.files.wordpress.com/2011/03/03.png?w=300)](http://sergioarcos.files.wordpress.com/2011/03/03.png)
+[![](/images/2011/03/03.png?w=300)](/images/2011/03/03.png)
 
 Resulta que el código enviado, es en crudo, no como hace cuando replicas un imagen o un vídeo subido por la vía típica, que ya va embebido. Facebook se fía de que las imágenes que entramos por la sección notas, son "subidas", no externas, por eso no pone ninguna seguridad adicional.
 
 El resultado, es el esperado:
 
 
-[![](http://sergioarcos.files.wordpress.com/2011/03/04.png?w=300)](http://sergioarcos.files.wordpress.com/2011/03/04.png)
+[![](/images/2011/03/04.png?w=300)](/images/2011/03/04.png)
 
 ## Utilidad
 
@@ -70,7 +70,7 @@ Yo veo 2 vectores de ataque, pero la imaginación al poder :-)
 He hecho una prueba de concepto, a nivel de amigos, y han habido muchísimos casos de navegar en Facebook a través del móvil, lo cual es curioso:
 
 
-[![](http://sergioarcos.files.wordpress.com/2011/03/05.png?w=300)](http://sergioarcos.files.wordpress.com/2011/03/05.png)
+[![](/images/2011/03/05.png?w=300)](/images/2011/03/05.png)
 
 2) Utilizar la vulnerabilidad para atacar otras páginas externas que sean vulnerables a CSRF. Un ejemplo seria poder operar en un banco solo haciendo una llamada directa a una dirección, como por ejemplo, http://url.ext/mover_dinero.php?de=XXX&a=XXX&cantidad=999999. Ideal para atacar sistemas de encuestas, configurando la visibilidad a nivel de `cualquiera´, e incitando a que la gente lo comparta. Desconozco que sea posible hacer alguna llamada a Facebook de este tipo aprovechando el Referer. No tengo intención ni de probarlo.
 

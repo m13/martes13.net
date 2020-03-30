@@ -44,10 +44,10 @@ El objetivo es enviar un correo y que llegue al `inbox´ en vez de la carpeta `s
 Desde cualquier distribución GNU/Linux podemos crear un correo personalizado y enviarlo como prueba de concepto. Uso la cuenta de mi hermano para pasar el filtro.
 
 
-[![](http://sergioarcos.files.wordpress.com/2011/03/virt.png?w=300)](http://sergioarcos.files.wordpress.com/2011/03/virt.png)Y en nuestra `bandeja de entrada´ recibiríamos lo siguiente. A la izquierda, sin desplegar. A la derecha, desplegado. (¿Quién desplega?)
+[![](/images/2011/03/virt.png?w=300)](/images/2011/03/virt.png)Y en nuestra `bandeja de entrada´ recibiríamos lo siguiente. A la izquierda, sin desplegar. A la derecha, desplegado. (¿Quién desplega?)
 
 
-[![](http://sergioarcos.files.wordpress.com/2011/03/gmail_poc.png?w=300)](http://sergioarcos.files.wordpress.com/2011/03/gmail_poc.png)Podemos hacernos pasar por quien queramos, no por correo, sino por su nombre, y como es lo único que nos enseña Gmail, ¡olé!. En su día envíe muchos correos para probarlo, y aseguro que funcionaba.
+[![](/images/2011/03/gmail_poc.png?w=300)](/images/2011/03/gmail_poc.png)Podemos hacernos pasar por quien queramos, no por correo, sino por su nombre, y como es lo único que nos enseña Gmail, ¡olé!. En su día envíe muchos correos para probarlo, y aseguro que funcionaba.
 
 Además, si tenéis filtros personalizados y el correo que enviáis cumple la condición, se introduce en la etiqueta concreta (a excepción de que la condición sea la dirección de From (lógico)).
 
@@ -66,7 +66,7 @@ Eso significa que no se permiten enviar correos a Gmail si tu dirección IP no c
 
 A veces se le cuela. Ayer probé uno de los correos que tenia preparados al azar y coló, aún saliendo el error en el verbose.
 
-[![](http://sergioarcos.files.wordpress.com/2011/03/testing_yesterday.png?w=300)](http://sergioarcos.files.wordpress.com/2011/03/testing_yesterday.png) 
+[![](/images/2011/03/testing_yesterday.png?w=300)](/images/2011/03/testing_yesterday.png) 
 
 Supongo que es por desincronización entre servidores.
 

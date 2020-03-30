@@ -13,7 +13,7 @@ Some people recommend to use your own Private Registry for your images instead t
 
 Do you know how many images do you store every time you pull an unknown image? You can use [this tool](https://github.com/CenturyLinkLabs/docker-image-graph) for a graph like mine:
 
-[![Images chain tree](https://sergioarcos.files.wordpress.com/2015/04/docker_images2.png)](https://sergioarcos.files.wordpress.com/2015/04/docker_images2.png) *Image chain tree (Even I removed lots of old images last week)*
+[![Images chain tree](/images/2015/04/docker_images2.png)](/images/2015/04/docker_images2.png) *Image chain tree (Even I removed lots of old images last week)*
 
 The truth is that when you are preparing your own image you don't think too much about the ones in the middle, don't you? But, will you notice that a layer in the middle changed?
 

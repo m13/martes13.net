@@ -17,11 +17,11 @@ categories:
 Para una prueba de ingeniería social que realizaré en breve, he camuflado mi 
 [Teensy](http://www.pjrc.com/store/teensy.html)...
 
-[![Un peluche panda y mi teensy](http://sergioarcos.files.wordpress.com/2011/07/img_20110712_213424.jpg)](http://sergioarcos.files.wordpress.com/2011/07/img_20110712_213424.jpg)
+[![Un peluche panda y mi teensy](/images/2011/07/img_20110712_213424.jpg)](/images/2011/07/img_20110712_213424.jpg)
 
 ...el resultado...
 
-[![Hibrido USB - Peluche](http://sergioarcos.files.wordpress.com/2011/07/img_20110712_215546.jpg)](http://sergioarcos.files.wordpress.com/2011/07/img_20110712_215546.jpg)
+[![Hibrido USB - Peluche](/images/2011/07/img_20110712_215546.jpg)](/images/2011/07/img_20110712_215546.jpg)
 
 La idea original era un pato de goma junto al Teensy, llamado 
 [USB Rubber Ducky](http://www.google.com/search?q=USB+rubber+ducky). Proviene de la comunidad 

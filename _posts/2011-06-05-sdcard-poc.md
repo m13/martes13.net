@@ -79,7 +79,7 @@ I promise it works... so start deleting all your data of the SDcard right now ;-
 Special Note: Do you use CyanogenMod or another custom Rom? They save by default a backup of your data as *.img files. Do you know that they contain ALL YOUR DATA OF YOUR ACCOUNTS? It is overLOL!...(this image was taken when I was coding the app...)
 
 
-[![cyanogen-mod backups in *.img files](http://sergioarcos.files.wordpress.com/2011/06/files.png)](http://sergioarcos.files.wordpress.com/2011/06/files.png)
+[![cyanogen-mod backups in *.img files](/images/2011/06/files.png)](/images/2011/06/files.png)
 
 ### Conclusion
 

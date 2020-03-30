@@ -43,7 +43,7 @@ Poco después, la comunidad XDA-Developers descubrió un parche, tan simple como
 Volviendo atrás, cuando un programador crea una aplicación, utiliza una clave privada que certifica que esa aplicación es suya y no es modificable por nadie más. Es muy importante guardar bien esa clave privada fuera del alcance de malas manos, sino se puede refirmar una aplicación como si fuera original. Aún así, el sistema Android permite ejecutar cualquier aplicación firmada (hasta modo 
 debug), donde firmada significa que el contenido de "/META-INF/*" que se encuentra en el interior del APK lleva todas las firmas de todos los ficheros incluidos en el APK y se corresponden los hashes SHA1-DIGEST. Un ejemplo:
 
-[![ejemplo_metaInf](http://sergioarcos.files.wordpress.com/2011/03/ejemplo_metainf.png?w=300)](http://sergioarcos.files.wordpress.com/2011/03/ejemplo_metainf.png)
+[![ejemplo_metaInf](/images/2011/03/ejemplo_metainf.png?w=300)](/images/2011/03/ejemplo_metainf.png)
 
 El sistema operativo comprueba en 2 ocasiones que los paquetes esten firmados:
 
@@ -60,15 +60,15 @@ Para hacerlo divertido, vamos a hacer un ejemplo. (En esta ocasión, no explicar
 
 Lo primero, escogemos una victima. La aplicación será la Esdeveniments, una cutre aplicación del PSC que sólo tiene un WebView.
 
-1. [![](http://sergioarcos.files.wordpress.com/2011/03/descarga_psc.png?w=300)](http://sergioarcos.files.wordpress.com/2011/03/descarga_psc.png) <br/>La instalamos en el smartphone
+1. [![](/images/2011/03/descarga_psc.png?w=300)](/images/2011/03/descarga_psc.png) <br/>La instalamos en el smartphone
 2. La enviamos al pc a través del ASTRO Manager o del DDMS (obtened root en la shell con el OneClick)
 3. Renombramos el APK a ZIP
-4. Abrimos el ZIP, y reemplazamos los icon por calaveras y el main.xml lo editamos (ojo que tendréis que pasar de raw a ascii). <br/> [![](http://sergioarcos.files.wordpress.com/2011/03/main_xml1.png?w=300)](http://sergioarcos.files.wordpress.com/2011/03/main_xml1.png)
+4. Abrimos el ZIP, y reemplazamos los icon por calaveras y el main.xml lo editamos (ojo que tendréis que pasar de raw a ascii). <br/> [![](/images/2011/03/main_xml1.png?w=300)](/images/2011/03/main_xml1.png)
 5. Se vuelve a renombrar como APK, y con el DDMS, se hace push del fichero a /data/app/nombre_original.apk
 
 El resultado es que, aunque el icono del escritorio no cambia (a excepción de volverlo a arrastrar y recrearlo), cuando se abre la aplicación:
 
-[![](http://sergioarcos.files.wordpress.com/2011/03/sorpresa1.png?w=180)](http://sergioarcos.files.wordpress.com/2011/03/sorpresa1.png)
+[![](/images/2011/03/sorpresa1.png?w=180)](/images/2011/03/sorpresa1.png)
 
 Hay que acordarse que para hacer esto, se necesitan permisos root (hacer igual que DroidDream y ejecutar nativamente el exploit), pero se puede automatizar el proceso de forma muy sencilla para hacerse en TODAS las aplicaciones instaladas en el movil. Es muy facil desde una aplicación programar que abra un APK, lo examine, modifique el main.xml, un archivo *.so (si se trabaja con NDK), o cualquier otro recurso, y lo vuelva a empaquetar. Imaginad que hace esto que digo de infectaros todas las aplicaciones... y reiniciáis el móvil :D. Adiós a todas vuestras aplicaciones. (un 
 geek podría volvérselas a poner, o usar el recovery, pero ¿¿acaso no llegarían quejas a los proveedores de móviles??)
@@ -81,6 +81,6 @@ La seguridad de Android reside EXCLUSIVAMENTE en no ser vulnerable a un exploit.
 
 Sin querer, aprete al botón de enviar mientras hacia pruebas. Lo siento...
 
-[![](http://sergioarcos.files.wordpress.com/2011/03/esdeveniments.png?w=180)](http://sergioarcos.files.wordpress.com/2011/03/esdeveniments.png) 
+[![](/images/2011/03/esdeveniments.png?w=180)](/images/2011/03/esdeveniments.png) 
 
 ...pude descubrir otra forma de debugging: provocando los errores a posta ;-)

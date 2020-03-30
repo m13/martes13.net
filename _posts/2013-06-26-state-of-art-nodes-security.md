@@ -38,7 +38,7 @@ The
 
 We also can draw a graph from the application database like this:
 
-[![Graph by Libreoffice4](http://sergioarcos.files.wordpress.com/2013/06/graph.png)](http://sergioarcos.files.wordpress.com/2013/06/graph.png)
+[![Graph by Libreoffice4](/images/2013/06/graph.png)](/images/2013/06/graph.png)
 
 We can see that the probability to use non-updated software is considerable, and I am sure that you agree that it directly increases the risk. We should check other factors like "time of live", "versions released", "community", but the graph gives a first idea. Some of you will think that a stable version is good enough to be used, but remember that we are speaking about NodeJS. One year ago did we have v0.6 or v0.4? For example, I could not use node-gd/gd because they did not compile.
 

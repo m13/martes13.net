@@ -31,7 +31,7 @@ Esto implica una fácil suplantación del individuo añadiendo otra persona dent
 
 Se ha comprobado que si el programa esta en marcha y se incorpora una nueva persona realizando otro gesto supuestamente reconocido, el programa bloquea ipso-facto el ordenador con el que se trabaja. Se rumorea que el servicio de Gmail Motion empieza a ir más y más lento de manera general, pero gracias a su sistema SMTML (si-me-tiras-me-levanto) de momento no ha causado grandes estragos. Se recuerda que el sistema sigue en Beta, aunque no será fácil reparar este error.
 
-[![Gmail Motion DoS](http://sergioarcos.files.wordpress.com/2011/04/01.png)](http://sergioarcos.files.wordpress.com/2011/04/01.png)
+[![Gmail Motion DoS](/images/2011/04/01.png)](/images/2011/04/01.png)
 
 Esto implica que hay que cerrar bien la puerta de la habitación antes de comenzar a utilizar el servicio. Desde Google desaconsejan activarlo si se tienen hermanos pequeños.
 
@@ -41,6 +41,6 @@ Esto implica que hay que cerrar bien la puerta de la habitación antes de comenz
 
 Se dice que si se pone una hoja en negro que ocupe todo el enfoque de la webcam el sistema te autobloquea la cuenta de Gmail automáticamente. Yo paso de probarlo, que no tengo tanta tinta para imprimirmela, pero os dejo una de muestra por si queréis testearlo.
 
-[![april_fools](http://sergioarcos.files.wordpress.com/2011/04/02.png?w=300)](http://sergioarcos.files.wordpress.com/2011/04/02.png)
+[![april_fools](/images/2011/04/02.png?w=300)](/images/2011/04/02.png)
 
 ****

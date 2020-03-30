@@ -24,7 +24,7 @@ I am going to tell you how to do a presentation with
 
 This is the toolkit we need:
 
-[![](http://sergioarcos.files.wordpress.com/2011/04/teensy_tools.png?w=300)](http://sergioarcos.files.wordpress.com/2011/04/teensy_tools.png)
+[![](/images/2011/04/teensy_tools.png?w=300)](/images/2011/04/teensy_tools.png)
 
 As you can see, the most important thing is the Teensy board, that you will have to buy it in the official webpage. The other things are just to do it better. But we need some software tools too. I will be using the 
 [Teensy Loader Application](http://www.pjrc.com/teensy/first_use.html) and the 
